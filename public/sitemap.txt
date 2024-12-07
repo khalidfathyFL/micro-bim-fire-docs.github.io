@@ -1,0 +1,7 @@
+http://example.com/2024/12/07/index/
+http://example.com/classes/View3DExtensions.html
+http://example.com/classes/index.html
+http://example.com/classes/CollectionExtensions.html
+http://example.com/classes/DocumentExtensions.html
+http://example.com/about/index.html
+http://example.com/

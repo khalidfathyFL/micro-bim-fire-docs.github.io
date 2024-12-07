@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Welcome to MicroBIM Fire Documentation</title>
+    <url>/2024/12/07/index/</url>
+    <content><![CDATA[<h1 id="Welcome-to-MicroBIM-Fire-Documentation"><a href="#Welcome-to-MicroBIM-Fire-Documentation" class="headerlink" title="Welcome to MicroBIM Fire Documentation"></a>Welcome to MicroBIM Fire Documentation</h1><p>At MicroBIM Fire, we are dedicated to providing comprehensive and well-structured documentation for our libraries, tailored to meet the needs of developers in the AEC industry.</p>
+<p>Our documentation covers:</p>
+<ul>
+<li><strong>Revit Extensions</strong>: A library offering robust tools and APIs to extend Revit’s functionality, enabling seamless automation and enhanced workflows.</li>
+<li><strong>WPF UI Library</strong>: A collection of intuitive user interface components designed specifically for WPF-based Revit applications.</li>
+<li><strong>Revit Geometry Manipulation</strong>: Tools for handling and processing Revit’s geometric data with precision and efficiency.</li>
+<li><strong>Revit Data Handling</strong>: Clear guidance for accessing, managing, and processing Revit’s data models.</li>
+</ul>
+<p>With practical examples, real-world use cases, and detailed explanations, our documentation ensures that developers can effectively integrate our tools into their workflows. By empowering developers to innovate, we aim to drive productivity and foster advancements in the AEC industry.</p>
+<p>Explore the following sections to get started:</p>
+<ul>
+<li><a href="../classes/index.html">Classes</a></li>
+<li><a href="../about/index.html">About</a></li>
+</ul>
+<p>Let’s build the future together!</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>About MicroBIM</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<h1 id="About-MicroBIM"><a href="#About-MicroBIM" class="headerlink" title="About MicroBIM"></a>About MicroBIM</h1><p>With products boosting efficiency, reliability, and productivity of tedious everyday BIM workflows, <strong>MicroBIM</strong> has been established to revolutionize apps for the everchanging construction industry worldwide. MicroBIM Fire (formerly PipeFab) is software born out of the need to make Revit more adaptable to Fire Design.</p>
+<p>Starting in 2017, we initially developed the software to streamline the pipe fabrication process. It has now grown into a complete suite of Fire Design tools for modeling, fabricating, and hydraulically calculating Fire systems. With an experienced team of Fire Design Engineers and Software Developers, we have tailored MicroBIM Fire to make designing in Revit as efficient and accurate as possible.</p>
+<p>Working alongside valued clients, providing continuous support and training, <strong>MicroBIM Fire</strong> has changed the way we design Fire Systems in Revit. We are keen to deliver the <strong>MicroBIM Fire</strong> software experience to many more designers and engineers around the world.</p>
+<div style='display: flex; justify-content: center; align-items: center; text-align: center; margin: 20px 0;'>
+<img src='/images/autodesk-auth.png' alt='AUTODESK Authorized Developer' style='width: 200px; border: none; display: inline-block;'>
+</div>
+
+<div style='text-align: center; font-weight: bold;'>
+Copyright © 2018 - Present MICROBIM | All Rights Reserved.
+</div>
+]]></content>
+  </entry>
+  <entry>
+    <title>CollectionExtensions</title>
+    <url>/classes/CollectionExtensions.html</url>
+    <content><![CDATA[<p><strong>Summary:</strong> Provides extension methods for working with collections.</p>
+<h2 id="Methods"><a href="#Methods" class="headerlink" title="Methods"></a>Methods</h2><h3 id="ToObservableCollection1-System-Collections-Generic-IEnumerable-0"><a href="#ToObservableCollection1-System-Collections-Generic-IEnumerable-0" class="headerlink" title="ToObservableCollection1(System.Collections.Generic.IEnumerable{0})"></a>ToObservableCollection<code>1(System.Collections.Generic.IEnumerable&#123;</code>0})</h3><p><strong>Summary:</strong> Converts an enumerable collection to an ObservableCollection.</p>
+<h4 id="Parameters"><a href="#Parameters" class="headerlink" title="Parameters:"></a>Parameters:</h4><ul>
+<li><code>source</code>: The source enumerable collection to convert.</li>
+</ul>
+<h4 id="Returns"><a href="#Returns" class="headerlink" title="Returns:"></a>Returns:</h4><p>An ObservableCollection containing the elements from the source.</p>
+<hr>
+]]></content>
+  </entry>
+  <entry>
+    <title>DocumentExtensions</title>
+    <url>/classes/DocumentExtensions.html</url>
+    <content><![CDATA[<p><strong>Summary:</strong> Provides extension methods for the Autodesk Revit API.</p>
+<h2 id="Methods"><a href="#Methods" class="headerlink" title="Methods"></a>Methods</h2><h3 id="GetFamilyTypesByCategoryOrderedByName-Autodesk-Revit-DB-Document-Autodesk-Revit-DB-BuiltInCategory"><a href="#GetFamilyTypesByCategoryOrderedByName-Autodesk-Revit-DB-Document-Autodesk-Revit-DB-BuiltInCategory" class="headerlink" title="GetFamilyTypesByCategoryOrderedByName(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.BuiltInCategory)"></a>GetFamilyTypesByCategoryOrderedByName(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.BuiltInCategory)</h3><p><strong>Summary:</strong> Retrieves all family types of the specified category from the given Revit document as an ObservableCollection.</p>
+<h4 id="Parameters"><a href="#Parameters" class="headerlink" title="Parameters:"></a>Parameters:</h4><ul>
+<li><code>doc</code>: The Revit document to search for family types.</li>
+<li><code>category</code>: The BuiltInCategory to filter family types.</li>
+</ul>
+<h4 id="Returns"><a href="#Returns" class="headerlink" title="Returns:"></a>Returns:</h4><p>An ObservableCollection containing all FamilySymbol objects representing the specified category.</p>
+<hr>
+<h3 id="GetLevelsOrderedByProperty1-Autodesk-Revit-DB-Document-System-Func-Autodesk-Revit-DB-Level-0-System-Boolean"><a href="#GetLevelsOrderedByProperty1-Autodesk-Revit-DB-Document-System-Func-Autodesk-Revit-DB-Level-0-System-Boolean" class="headerlink" title="GetLevelsOrderedByProperty1(Autodesk.Revit.DB.Document,System.Func{Autodesk.Revit.DB.Level,0},System.Boolean)"></a>GetLevelsOrderedByProperty<code>1(Autodesk.Revit.DB.Document,System.Func&#123;Autodesk.Revit.DB.Level,</code>0},System.Boolean)</h3><p><strong>Summary:</strong> Retrieves all levels from the specified Revit document as an ObservableCollection,<br>            with dynamic ordering based on a specified property.</p>
+<h4 id="Parameters-1"><a href="#Parameters-1" class="headerlink" title="Parameters:"></a>Parameters:</h4><ul>
+<li><code>doc</code>: The Revit document to search for levels.</li>
+<li><code>keySelector</code>: A function to extract a key from a Level for ordering.</li>
+<li><code>ascending</code>: If true, orders levels in ascending order; otherwise, descending.</li>
+</ul>
+<h4 id="Returns-1"><a href="#Returns-1" class="headerlink" title="Returns:"></a>Returns:</h4><p>An ObservableCollection containing Level objects, ordered dynamically by the specified property.</p>
+<h4 id="Exceptions"><a href="#Exceptions" class="headerlink" title="Exceptions:"></a>Exceptions:</h4><ul>
+<li><code>T:ArgumentNullException</code>: Thrown if the document or keySelector is null.</li>
+</ul>
+<hr>
+<h3 id="GetRebarShapes-Autodesk-Revit-DB-Document"><a href="#GetRebarShapes-Autodesk-Revit-DB-Document" class="headerlink" title="GetRebarShapes(Autodesk.Revit.DB.Document)"></a>GetRebarShapes(Autodesk.Revit.DB.Document)</h3><p><strong>Summary:</strong> Retrieves all rebar shapes from the specified Revit document.</p>
+<h4 id="Parameters-2"><a href="#Parameters-2" class="headerlink" title="Parameters:"></a>Parameters:</h4><ul>
+<li><code>doc</code>: The Revit document to retrieve rebar shapes from.</li>
+</ul>
+<h4 id="Returns-2"><a href="#Returns-2" class="headerlink" title="Returns:"></a>Returns:</h4><p>A list of RebarShape objects available in the document.</p>
+<h4 id="Exceptions-1"><a href="#Exceptions-1" class="headerlink" title="Exceptions:"></a>Exceptions:</h4><ul>
+<li><code>T:ArgumentNullException</code>: Thrown if the provided document is null.</li>
+</ul>
+<hr>
+<h3 id="GetRebarBarTypes-Autodesk-Revit-DB-Document"><a href="#GetRebarBarTypes-Autodesk-Revit-DB-Document" class="headerlink" title="GetRebarBarTypes(Autodesk.Revit.DB.Document)"></a>GetRebarBarTypes(Autodesk.Revit.DB.Document)</h3><p><strong>Summary:</strong> Retrieves all rebar bar types from the specified Revit document as an ObservableCollection.</p>
+<h4 id="Parameters-3"><a href="#Parameters-3" class="headerlink" title="Parameters:"></a>Parameters:</h4><ul>
+<li><code>doc</code>: The Revit document to retrieve rebar bar types from.</li>
+</ul>
+<h4 id="Returns-3"><a href="#Returns-3" class="headerlink" title="Returns:"></a>Returns:</h4><p>An ObservableCollection containing all RebarBarType objects in the document.</p>
+<h4 id="Exceptions-2"><a href="#Exceptions-2" class="headerlink" title="Exceptions:"></a>Exceptions:</h4><ul>
+<li><code>T:ArgumentNullException</code>: Thrown if the provided document is null.</li>
+</ul>
+<hr>
+<h3 id="CreateAndPlaceColumnAtPoint-Autodesk-Revit-DB-Document-Autodesk-Revit-DB-XYZ-Autodesk-Revit-DB-FamilySymbol-Autodesk-Revit-DB-Level-Autodesk-Revit-DB-Level"><a href="#CreateAndPlaceColumnAtPoint-Autodesk-Revit-DB-Document-Autodesk-Revit-DB-XYZ-Autodesk-Revit-DB-FamilySymbol-Autodesk-Revit-DB-Level-Autodesk-Revit-DB-Level" class="headerlink" title="CreateAndPlaceColumnAtPoint(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.XYZ,Autodesk.Revit.DB.FamilySymbol,Autodesk.Revit.DB.Level,Autodesk.Revit.DB.Level)"></a>CreateAndPlaceColumnAtPoint(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.XYZ,Autodesk.Revit.DB.FamilySymbol,Autodesk.Revit.DB.Level,Autodesk.Revit.DB.Level)</h3><p><strong>Summary:</strong> Prompts the user to select a point and places a column at that point.</p>
+<h4 id="Parameters-4"><a href="#Parameters-4" class="headerlink" title="Parameters:"></a>Parameters:</h4><ul>
+<li><code>doc</code>: The Revit document where the column will be placed.</li>
+<li><code>uiDoc</code>: The Revit UI document for user interaction.</li>
+<li><code>columnType</code>: </li>
+<li><code>baseLevel</code>: </li>
+<li><code>topLevel</code>:</li>
+</ul>
+<h4 id="Returns-4"><a href="#Returns-4" class="headerlink" title="Returns:"></a>Returns:</h4><p>The created column Element, or null if no column was created.</p>
+<h4 id="Exceptions-3"><a href="#Exceptions-3" class="headerlink" title="Exceptions:"></a>Exceptions:</h4><ul>
+<li><code>T:ArgumentNullException</code>: Thrown if the provided document or UI document is null.</li>
+</ul>
+<hr>
+]]></content>
+  </entry>
+  <entry>
+    <title>View3DExtensions</title>
+    <url>/classes/View3DExtensions.html</url>
+    <content><![CDATA[<p><strong>Summary:</strong> Provides extension methods for creating or retrieving 3D views in the Autodesk Revit API.</p>
+<h2 id="Methods"><a href="#Methods" class="headerlink" title="Methods"></a>Methods</h2><h3 id="SearchOrCreate3DView-Autodesk-Revit-DB-Document-System-String"><a href="#SearchOrCreate3DView-Autodesk-Revit-DB-Document-System-String" class="headerlink" title="SearchOrCreate3DView(Autodesk.Revit.DB.Document,System.String)"></a>SearchOrCreate3DView(Autodesk.Revit.DB.Document,System.String)</h3><p><strong>Summary:</strong> Searches for a 3D view with the specified name. If it exists, returns it. Otherwise, creates a new 3D view.</p>
+<h4 id="Parameters"><a href="#Parameters" class="headerlink" title="Parameters:"></a>Parameters:</h4><ul>
+<li><code>doc</code>: The Revit document to search or create the 3D view in.</li>
+<li><code>viewName</code>: The name of the 3D view to search for or create.</li>
+</ul>
+<h4 id="Returns"><a href="#Returns" class="headerlink" title="Returns:"></a>Returns:</h4><p>The existing or newly created View3D object.</p>
+<h4 id="Exceptions"><a href="#Exceptions" class="headerlink" title="Exceptions:"></a>Exceptions:</h4><ul>
+<li><code>T:ArgumentNullException</code>: Thrown if the provided document is null.</li>
+<li><code>T:InvalidOperationException</code>: Thrown if a 3D view cannot be created.</li>
+</ul>
+<hr>
+]]></content>
+  </entry>
+  <entry>
+    <title>Documentation Classes</title>
+    <url>/classes/index.html</url>
+    <content><![CDATA[<h1 id="Classes"><a href="#Classes" class="headerlink" title="Classes"></a>Classes</h1><ul>
+<li><a href="CollectionExtensions.html">CollectionExtensions</a></li>
+<li><a href="DocumentExtensions.html">DocumentExtensions</a></li>
+<li><a href="View3DExtensions.html">View3DExtensions</a></li>
+</ul>
+]]></content>
+  </entry>
+</search>
