@@ -81,7 +81,10 @@ exclude:
 ignore:
 
 # Extensions
-theme: next
+theme: null
+include:
+  - themes/next
+
 
 # Deployment
 deploy:
